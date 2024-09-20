@@ -238,7 +238,7 @@ function Home({handleDataFromChild}) {
       <div className='project-container'>
       <h1 style={{color:'white',fontSize:'30px'}}>This interactive survey aims to gather your honest thoughts and experiences with home repairs. There are no right or wrong answers – we're genuinely interested in your unique perspective.
 
-<br /><br />To begin, simply click the button below. Our AI assistant, EVA, will guide you through the survey, asking questions that you can answer verbally</h1>
+<br /><br />To begin, simply click the button below. Our AI assistant, RYAN, will guide you through the survey, asking questions that you can answer verbally</h1>
 
       <Link to='/webcall'><button className='button'>
       <FaPhoneAlt size={30}/></button></Link>
