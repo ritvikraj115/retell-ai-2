@@ -243,7 +243,7 @@ function WebCall({id}) {
     if(count==0){
     try {
       let i =0;
-      const response = await axios.post(`${process.env.REACT_APP_FRONTEND_URL}/api/create-web-call`, {
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/create-web-call`, {
         agentId: id,
         apiKey: process.env.REACT_APP_RETELL_KEY
       });
