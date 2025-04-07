@@ -21,6 +21,7 @@ app.use(bodyParser.json());
 // Endpoint to create a web call and return the access token
 app.post('/api/create-web-call', async (req, res) => {
   const { agentId, apiKey } = await req.body;
+    console.log(agentId)
   const client = await new Retell({
     apiKey: apiKey, // Replace with your actual API key
   });
