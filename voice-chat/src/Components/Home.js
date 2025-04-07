@@ -234,11 +234,11 @@ function Home({handleDataFromChild}) {
   return (
     <Styles>
     <div className="body">
-      <div className='question-container'><h1 className='question-title'>Surview.io</h1></div>
+      <div className='question-container'><h1 className='question-title'>Sur-Way</h1></div>
       <div className='project-container'>
-      <h1 style={{color:'white',fontSize:'30px'}}>This interactive survey aims to gather your honest thoughts and experiences with home repairs. There are no right or wrong answers – we're genuinely interested in your unique perspective.
+      <h1 style={{color:'white',fontSize:'30px'}}>This interactive survey aims to gather your honest thoughts and experiences with our product  . There are no right or wrong answers – we're genuinely interested in your unique perspective.
 
-<br /><br />To begin, simply click the button below. Our AI assistant, EVA, will guide you through the survey, asking questions that you can answer verbally</h1>
+<br /><br />To begin, simply click the button below. Our AI assistant, Ryan, will guide you through the survey, asking questions that you can answer verbally</h1>
 
       <Link to='/webcall'><button className='button'>
       <FaPhoneAlt size={30}/></button></Link>
